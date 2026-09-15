@@ -64,5 +64,19 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aipingji is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/aipingji
+Aipingji (爱拼机, also romanized Apin / Aipinji) was a Hangzhou, China travel-technology startup —
+legal entity 杭州爱拼机网络科技有限公司, incorporated 7 May 2015 in the Binjiang district — that built
+a C2B "intelligent group-buying" marketplace for discounted international air tickets. Instead of
+reselling published fares it aggregated the unsold seat inventory of roughly a thousand Chinese
+charter operators (包机商) and let consumers form 10-15 person buying groups against a specific
+date, taking a reported 5% commission from the charter operator. The app served 36 destinations
+out of Hangzhou, Shanghai and Nanjing, and the company raised an angel round (Aug 2015), a Series
+A (Apr 2016), a ¥120M Series B (Jan 2017) and a Series B+ (Jun 2017).
+
+**Status: defunct — no first-party surface survives.** The domain cited as its operating site,
+`apin.com`, is now a parked listing for sale through the Chinese domain broker ename.com.cn: the
+root serves a "This domain is for sale" lander and every deeper path returns `403`. `aipingji.com`,
+`aipinji.com` and `api.aipingji.com` do not resolve. There is no developer portal, GitHub
+organization, published package, or API of any kind, so this profile carries no artifacts.
+
+- Secondary-market listing: https://equityzen.com/company/aipingji
