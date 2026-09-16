@@ -31,7 +31,7 @@ x-status-detail: 'No first-party host resolves or serves for Aipingji. The only 
   a company web presence, so it is recorded here as type SecondaryMarket rather than type Website.'
 specificationVersion: '0.20'
 created: '2026-09-14'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Travel
@@ -43,6 +43,7 @@ tags:
 - Group Buying
 - E-Commerce
 - China
+- Defunct
 tags_raw:
 - Company
 - Travel
@@ -54,6 +55,7 @@ tags_raw:
 - Group Buying
 - Ecommerce
 - China
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
