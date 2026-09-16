@@ -1,43 +1,37 @@
 aid: aipingji
 name: Aipingji
-description: >-
-  Aipingji (爱拼机, also romanized Apin / Aipinji) was a Hangzhou, China travel-technology
-  startup — legal entity 杭州爱拼机网络科技有限公司, incorporated 7 May 2015 in the Binjiang
-  district — that built a C2B "intelligent group-buying" marketplace for discounted
-  international air tickets. Rather than reselling published fares, it aggregated the
-  unsold seat inventory of roughly a thousand Chinese charter operators (包机商), who buy
-  blocks of seats from airlines in advance, and let consumers form 10-15 person buying
-  groups against a specific date until the group filled and tickets were issued, taking a
-  reported 5% commission from the charter operator. The app served 36 destinations from
-  Hangzhou, Shanghai and Nanjing, and the company raised an angel round (Aug 2015, 天使汇),
-  a tens-of-millions-RMB Series A (Apr 2016, led by 耀途资本 with 光合基金 and others), a
-  ¥120M Series B (Jan 2017, 华映资本 and 弘帆资本) and a Series B+ (Jun 2017, 一村资本,
-  华映资本, Century Capital, Shenxuan Investment). No first-party surface survives: the
-  domain cited as its site, apin.com, is now a parked listing offered for sale at ¥199,999
-  through the Chinese domain broker ename.com.cn and answers 403 on every path but the
-  sale lander, the mobile app's last recorded update was September 2017, and there is no
-  developer portal, GitHub organization, published package, or API of any kind.
+description: 'Aipingji (爱拼机, also romanized Apin / Aipinji) was a Hangzhou, China travel-technology startup
+  — legal entity 杭州爱拼机网络科技有限公司, incorporated 7 May 2015 in the Binjiang district — that built a C2B "intelligent
+  group-buying" marketplace for discounted international air tickets. Rather than reselling published
+  fares, it aggregated the unsold seat inventory of roughly a thousand Chinese charter operators (包机商),
+  who buy blocks of seats from airlines in advance, and let consumers form 10-15 person buying groups
+  against a specific date until the group filled and tickets were issued, taking a reported 5% commission
+  from the charter operator. The app served 36 destinations from Hangzhou, Shanghai and Nanjing, and the
+  company raised an angel round (Aug 2015, 天使汇), a tens-of-millions-RMB Series A (Apr 2016, led by 耀途资本
+  with 光合基金 and others), a ¥120M Series B (Jan 2017, 华映资本 and 弘帆资本) and a Series B+ (Jun 2017, 一村资本, 华映资本,
+  Century Capital, Shenxuan Investment). No first-party surface survives: the domain cited as its site,
+  apin.com, is now a parked listing offered for sale at ¥199,999 through the Chinese domain broker ename.com.cn
+  and answers 403 on every path but the sale lander, the mobile app''s last recorded update was September
+  2017, and there is no developer portal, GitHub organization, published package, or API of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/aipingji/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
 x-status: defunct
-x-status-detail: >-
-  No first-party host resolves or serves for Aipingji. The only domain any source ties to the
-  company — apin.com, named as its operating site on its CB Insights profile — is now a
-  domain-broker holding page: http://apin.com/ returns an ename.com.cn "This domain is for sale"
-  lander (¥199,999 一口价) and every other path under it, including /.well-known/agent-card.json,
-  /openapi.json and /robots.txt, returns 403; HTTPS on that host does not complete a connection.
-  aipingji.com, aipingji.cn, aipinji.com and api.aipingji.com do not resolve at all. The
-  www.belephtro.com string carried as "official website" on the 36Kr PitchHub record resolves but
-  never answers on port 80 or 443 and is not a plausible first-party brand host, so it was not
-  wired as a Website pointer. The EquityZen secondary-market listing this record was harvested
-  from is live and still describes this company, but a trading-venue listing page is not a company
-  web presence, so it is recorded here as type SecondaryMarket rather than type Website.
+x-status-detail: 'No first-party host resolves or serves for Aipingji. The only domain any source ties
+  to the company — apin.com, named as its operating site on its CB Insights profile — is now a domain-broker
+  holding page: http://apin.com/ returns an ename.com.cn "This domain is for sale" lander (¥199,999 一口价)
+  and every other path under it, including /.well-known/agent-card.json, /openapi.json and /robots.txt,
+  returns 403; HTTPS on that host does not complete a connection. aipingji.com, aipingji.cn, aipinji.com
+  and api.aipingji.com do not resolve at all. The www.belephtro.com string carried as "official website"
+  on the 36Kr PitchHub record resolves but never answers on port 80 or 443 and is not a plausible first-party
+  brand host, so it was not wired as a Website pointer. The EquityZen secondary-market listing this record
+  was harvested from is live and still describes this company, but a trading-venue listing page is not
+  a company web presence, so it is recorded here as type SecondaryMarket rather than type Website.'
 specificationVersion: '0.20'
 created: '2026-09-14'
-modified: '2026-09-14'
+modified: '2026-09-15'
 tags:
 - Company
 - Travel
@@ -47,8 +41,9 @@ tags:
 - Online Travel Agency
 - Marketplace
 - Group Buying
-- Ecommerce
+- E-Commerce
 - China
+- Defunct
 tags_raw:
 - Company
 - Travel
@@ -72,14 +67,12 @@ common:
 x-coverage:
   state: none
   reason: defunct
-  detail: >-
-    Aipingji's operating domain apin.com is now a for-sale parking page at the Chinese domain
-    broker ename.com.cn — the root returns the "您正在访问的域名可以转让 / This domain is for sale"
-    lander and every deeper path, including /openapi.json, /llms.txt, /robots.txt and
-    /.well-known/agent-card.json, returns 403 — so STEP 0b contract discovery had no live
-    first-party host to run against; aipingji.com, aipinji.com and api.aipingji.com do not
-    resolve, there is no GitHub organization or published npm/PyPI package under any spelling of
-    the name, and the company's app has no recorded update since September 2017.
+  detail: Aipingji's operating domain apin.com is now a for-sale parking page at the Chinese domain broker
+    ename.com.cn — the root returns the "您正在访问的域名可以转让 / This domain is for sale" lander and every deeper
+    path, including /openapi.json, /llms.txt, /robots.txt and /.well-known/agent-card.json, returns 403
+    — so STEP 0b contract discovery had no live first-party host to run against; aipingji.com, aipinji.com
+    and api.aipingji.com do not resolve, there is no GitHub organization or published npm/PyPI package
+    under any spelling of the name, and the company's app has no recorded update since September 2017.
   evidence:
   - url: http://apin.com/
     status: 200
